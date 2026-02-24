@@ -1,0 +1,22 @@
+# Lazy Lizard Agent — Python dependencies (pinned for reproducibility & security)
+
+# Solana / on-chain
+solana==0.34.3
+solders==0.21.0
+base58==2.1.1
+
+# HTTP
+requests==2.32.3
+
+# Environment / config
+python-dotenv==1.0.1
+
+# Async support (optional, for future WebSocket pump.fun listener)
+aiohttp==3.13.3
+websockets==12.0
+
+# Telegram bot (alternative to direct HTTP calls)
+python-telegram-bot==21.4
+
+# Data / utilities
+pydantic==2.8.2
